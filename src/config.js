@@ -1,11 +1,13 @@
 const config = {
+  STRIPE_KEY: "pk_test_ltsIwklDXEs9U5OQPi50yTyB00bcIxkbjD",
+  MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
       REGION: "ap-northeast-2",
       BUCKET: "buscketball",
     },
     apiGateway: {
       REGION: "ap-northeast-2",
-      URL: "https://4dhte3e7h8.execute-api.ap-northeast-2.amazonaws.com/prod/notes",
+      URL: "https://4dhte3e7h8.execute-api.ap-northeast-2.amazonaws.com/prod",
     },
     cognito: {
       REGION: "ap-northeast-2",
